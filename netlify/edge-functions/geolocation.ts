@@ -23,6 +23,7 @@ export default async (request: Request, context: Context) => {
 
   return Response.json({
     geo: context.geo,
+    ip: context.ip
   });
 };
 
